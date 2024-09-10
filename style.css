@@ -1,0 +1,221 @@
+html {
+  font-family: roboto;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Align links to the right */
+    background-color: #1f2937;
+    overflow: hidden;
+    padding: 0px 15%; 
+  }
+
+  .navbar-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: flex-end;
+}
+  
+  .navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;   
+ 
+  }
+  .banner{
+    
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+  justify-content: center;
+  padding: 0px 15%; 
+  padding-bottom: 70px;
+
+  }
+
+  .banner h1{
+    font-weight: 900;
+    font-size: 48px;
+    color:#f9faf8;
+     }
+     .banner p{
+        font-size: 18px;
+        color: #e5e7eb;
+     }
+
+  .sub-banner{
+    width: 50%;
+    height: auto;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 20px 6px;
+    text-decoration: none;
+    font-size: 17px;
+
+  }
+  .sub-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mengatur bagaimana gambar mengisi area */
+  }
+
+
+
+
+
+  .logo {
+    
+    width : 60px; /* Atur lebar logo menjadi 200 piksel */
+    height: 60px; /* Atur tinggi logo menjadi 50 piksel */
+  }
+
+  button{
+    background-color: #3882f6;
+    color: #f2f2f2;
+    padding: 10px 27px; /* Padding di dalam tombol */
+    font-size: 16px; /* Ukuran font */
+    border: none; /* Menghilangkan border default */
+    border-radius: 12px; /* Sudut halus */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat hover */
+}
+
+button:hover {
+    background-color: #f2f2f2; /* Warna saat hover */
+    color: #3882f6;
+}
+
+#info{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.sub-info div{
+    background-color: #3882f6;
+    height: 180px;
+    width:  180px;
+    border: none; /* Menghilangkan border default */
+    border-radius: 12px; /* Sudut halus */
+    cursor: pointer;
+}
+
+.sub-info p{
+  text-align: center;
+  color: #1f2937;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  padding: 0px 15%; 
+  padding-bottom: 70px;
+  
+
+}
+
+#quote{
+  
+  background-color: #e5e7eb;
+  padding: 50px 20%; 
+}
+
+#quote p:first-child {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+#quote p:last-child {
+  /* Gaya untuk paragraf terakhir */
+  color: rgb(26, 22, 228);
+  font-weight: bold;
+  font-size: 22px;
+  text-align: right;
+}
+
+#cta {
+  display: flex;
+  background-color: #3882f6;
+  align-items: center;
+  margin: 9% 15%;
+  justify-content: center;
+  padding: 0 10%;
+  border: none; /* Menghilangkan border */
+  border-radius: 12px; /* Membuat sudut halus */
+}
+#cta div:first-child{
+  width: 70%;
+  
+  }
+  .div-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-top: 20px;    /* Jarak dari bagian atas */
+    padding-bottom: 20px; /* Jarak dari bagian bawah */
+  }
+  
+  .div-cta p{
+    margin: 2px 0; /* Jarak kecil antar elemen p */
+    padding: 0;
+  }
+  #cta div:last-child{
+    width: 30%;
+    }
+
+    .div-cta p:first-child{
+      color: #e5e7eb;
+      font-weight: 500;
+      font-size: 25px;
+                }
+
+                .div-cta p:last-child{
+                  color: #d1d5db;
+                  font-weight: 500;
+                  font-size: 14px;
+                            }
+
+    #cta div:last-child{
+      display: flex;
+      justify-content: flex-end;
+
+    }
+  #btn-2 {
+    border: none; /* Menghilangkan border */
+    border-radius: 12px; /* Membuat sudut halus */
+    outline: 2px solid white; /* Outline putih */
+    background-color: #3882f6; /* Warna latar (opsional, bisa disesuaikan) */
+    padding: 10px 27px; /* Padding di dalam tombol */
+    color: white; /* Warna teks */
+}
+
+#btn-2:hover {
+    outline: 2px solid #f0f0f0; /* Mengubah outline saat hover */
+    background-color: #d1d5db; /* Ubah warna latar saat hover (opsional) */
+    color: #3882f6; /* Warna teks */
+}
+
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  height: 60px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center; /* Menengahkan konten secara horizontal di dalam flex container */
+  align-items: center; /* Menengahkan konten secara vertikal di dalam flex container */
+}
